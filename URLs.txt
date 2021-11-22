@@ -1,0 +1,34 @@
+Workflows:
+
+Centralized workflow - Similar to SVN - Only one main branch in which development is done.
+https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
+
+Feature branch workflow - Develop only in feature branches, main branch will never have broken code.
+https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+Gitflow workflow - Main & Develop branches, Develop has feature and release branches, Main has hotfix branch.
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+Forking workflow - Used for open source projects collaboration, Fork repo, push changes, create pull requests.
+https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
+
+Trunk based workflow - Short lived branches with few commits, merged frequently to main branch.
+https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development
+
+Merge:
+Fast forward - If branch is linear wrt main branch.
+3 way - If branch deviates from main branch.
+https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
+Rebase:
+To make branch linear or To convert 3 way merge into Fast forward merge.
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+Golden Rule of Rebasing:
+Do not rebase main onto feature branch.
+
+Pull requests:
+https://docs.microsoft.com/en-us/azure/devops/repos/git/review-pull-requests?view=azure-devops&tabs=browser
+
+Cherry pick:
+https://www.atlassian.com/git/tutorials/cherry-pick
+
