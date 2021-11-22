@@ -27,8 +27,10 @@ Golden Rule of Rebasing:
 Do not rebase main onto feature branch.
 
 Pull requests:
+A way to review, change and merge code in a branch.
 https://docs.microsoft.com/en-us/azure/devops/repos/git/review-pull-requests?view=azure-devops&tabs=browser
 
 Cherry pick:
+Picking a commit from a branch and applying it to another branch.
 https://www.atlassian.com/git/tutorials/cherry-pick
 
