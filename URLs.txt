@@ -3,6 +3,9 @@ Workflows:
 Centralized workflow - Similar to SVN - Only one main branch in which development is done.
 https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
 
+Trunk based workflow - Short lived branches with few commits, merged frequently to main branch.
+https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development
+
 Feature branch workflow - Develop only in feature branches, main branch will never have broken code.
 https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
@@ -12,8 +15,6 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 Forking workflow - Used for open source projects collaboration, Fork repo, push changes, create pull requests.
 https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
 
-Trunk based workflow - Short lived branches with few commits, merged frequently to main branch.
-https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development
 
 Merge:
 Fast forward - If branch is linear wrt main branch.
